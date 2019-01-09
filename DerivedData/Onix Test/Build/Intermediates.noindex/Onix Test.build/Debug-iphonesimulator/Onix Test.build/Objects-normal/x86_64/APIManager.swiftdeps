@@ -1,0 +1,134 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIManager"
+provides-nominal:
+- "9Onix_Test10APIManagerC"
+provides-member:
+- ["9Onix_Test10APIManagerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "..<"
+- !private "=="
+- "APIError"
+- "APIManager"
+- "APIManagerInterface"
+- !private "Alamofire"
+- "Decodable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "JSONDecoder"
+- "String"
+depends-member:
+- !private ["9Onix_Test8APIErrorO", "invalidData"]
+- !private ["9Onix_Test8APIErrorO", "jsonParsingFailure"]
+- !private ["9Onix_Test8APIErrorO", "requestFailed"]
+- ["9Onix_Test10APIManagerC", "APIError"]
+- !private ["9Onix_Test10APIManagerC", "Alamofire"]
+- ["9Onix_Test10APIManagerC", "Decodable"]
+- !private ["9Onix_Test10APIManagerC", "JSONDecoder"]
+- ["9Onix_Test10APIManagerC", "String"]
+- ["9Onix_Test10APIManagerC", "deinit"]
+- ["9Onix_Test10APIManagerC", "genericFetch"]
+- ["9Onix_Test10APIManagerC", "init"]
+- !private ["9Onix_Test19APIManagerInterfaceP", "APIError"]
+- !private ["9Onix_Test19APIManagerInterfaceP", "Alamofire"]
+- !private ["9Onix_Test19APIManagerInterfaceP", "JSONDecoder"]
+- ["9Onix_Test19APIManagerInterfaceP", ""]
+- ["9Onix_Test19APIManagerInterfaceP", "genericFetch"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- !private ["9Alamofire11DataRequestC", "response"]
+- !private ["9Alamofire11DataRequestC", "validate"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["9Alamofire19DefaultDataResponseV", "data"]
+- !private ["9Alamofire19DefaultDataResponseV", "error"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "get"]
+- !private ["SQ", "invalidData"]
+- !private ["SQ", "jsonParsingFailure"]
+- !private ["SQ", "requestFailed"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "get"]
+- !private ["SH", "invalidData"]
+- !private ["SH", "jsonParsingFailure"]
+- !private ["SH", "requestFailed"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SY", "get"]
+- !private ["9Alamofire7RequestC", "response"]
+- !private ["9Alamofire7RequestC", "validate"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "error"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "9Onix_Test8APIErrorO"
+- "9Onix_Test10APIManagerC"
+- "9Onix_Test19APIManagerInterfaceP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "Se"
+- !private "9Alamofire19DefaultDataResponseV"
+- !private "SE"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "9Alamofire10HTTPMethodO"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "SY"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e3b0ad2ec1849d5c570d40b6fd252e77"

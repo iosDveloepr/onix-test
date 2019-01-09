@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>C7EB9E57-3306-4C87-83FC-FDF26469F601</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C7EB9E57-3306-4C87-83FC-FDF26469F601.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Onix Test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Onix Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Onix Test</string>
+			<key>timeStartedRecording</key>
+			<real>568554094.458377</real>
+			<key>timeStoppedRecording</key>
+			<real>568554096.77117205</real>
+			<key>title</key>
+			<string>Build Onix Test</string>
+			<key>uniqueIdentifier</key>
+			<string>C7EB9E57-3306-4C87-83FC-FDF26469F601</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

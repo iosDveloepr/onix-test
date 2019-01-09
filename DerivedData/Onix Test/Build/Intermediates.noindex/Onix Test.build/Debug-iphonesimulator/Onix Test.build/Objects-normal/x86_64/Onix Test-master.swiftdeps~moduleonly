@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "10bfae55ef4a1eb0ca70e3b8c5688efe"
+build_time: [1546879184, 512678000]
+inputs:
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/View's/ArticlesTableViewCell.swift": [1546780270, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Model's/ArticleResponse.swift": [1546518692, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Network/APIManager.swift": [1546861951, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Controller's/ArticlesViewController.swift": [1546862179, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Controller's/ArticleDetailViewController.swift": [1546860770, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Extension's/ErrorAlert.swift": [1546622491, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/AppDelegate.swift": [1546511782, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Extension's/ViweControllerExtension.swift": [1546859808, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Network/APIManagerInterface.swift": [1546861951, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Model's/Article.swift": [1546609107, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Controller's/FavoriteArticlesViewController.swift": [1546861294, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Network/Endpoint.swift": [1546779178, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Onix Test/Network/APIError.swift": [1546780585, 0]

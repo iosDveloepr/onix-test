@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "2154343d07b18f2d0140416d1108981c"
+build_time: [1546511943, 362345000]
+inputs:
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/AFError.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/Alamofire.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/MultipartFormData.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/Notifications.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/ParameterEncoding.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/Request.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/Response.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/ResponseSerialization.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/Result.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/SessionDelegate.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/SessionManager.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/TaskDelegate.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/Timeline.swift": [1546511922, 0]
+  "/Users/yermakovanton/Desktop/Onix Test/Pods/Alamofire/Source/Validation.swift": [1546511922, 0]

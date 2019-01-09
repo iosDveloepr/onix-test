@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>10B013E2-164E-4F2E-A5FC-EBB43889528B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>10B013E2-164E-4F2E-A5FC-EBB43889528B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Onix_Test-eothnxdmzihtjpfxvgkjaarfspzm</string>
+			<key>timeStartedRecording</key>
+			<real>568554094.55553198</real>
+			<key>timeStoppedRecording</key>
+			<real>568554096.69400299</real>
+			<key>title</key>
+			<string>Build target Onix Test</string>
+			<key>uniqueIdentifier</key>
+			<string>10B013E2-164E-4F2E-A5FC-EBB43889528B</string>
+		</dict>
+		<key>7593E7FA-1500-4617-9985-432B9F5749E4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>7593E7FA-1500-4617-9985-432B9F5749E4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Alamofire-gzlpvhjjrjyawmerapvazqozqflp</string>
+			<key>timeStartedRecording</key>
+			<real>568552438.08866203</real>
+			<key>timeStoppedRecording</key>
+			<real>568552438.09713304</real>
+			<key>title</key>
+			<string>Build target Alamofire</string>
+			<key>uniqueIdentifier</key>
+			<string>7593E7FA-1500-4617-9985-432B9F5749E4</string>
+		</dict>
+		<key>AEFB6904-39CD-42DD-B543-77AAC5C449B7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>AEFB6904-39CD-42DD-B543-77AAC5C449B7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>AlamofireImage-gzlpvhjjrjyawmerapvazqozqflp</string>
+			<key>timeStartedRecording</key>
+			<real>568471978.21222305</real>
+			<key>timeStoppedRecording</key>
+			<real>568471978.21441805</real>
+			<key>title</key>
+			<string>Build target AlamofireImage</string>
+			<key>uniqueIdentifier</key>
+			<string>AEFB6904-39CD-42DD-B543-77AAC5C449B7</string>
+		</dict>
+		<key>C15EA543-4B9D-40DF-B9C6-09D2DCFD28B5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>C15EA543-4B9D-40DF-B9C6-09D2DCFD28B5.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Pods-Onix_Test-gzlpvhjjrjyawmerapvazqozqflp</string>
+			<key>timeStartedRecording</key>
+			<real>568475193.05398595</real>
+			<key>timeStoppedRecording</key>
+			<real>568475193.05848396</real>
+			<key>title</key>
+			<string>Build target Pods-Onix Test</string>
+			<key>uniqueIdentifier</key>
+			<string>C15EA543-4B9D-40DF-B9C6-09D2DCFD28B5</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

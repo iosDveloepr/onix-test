@@ -1,0 +1,294 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ApiClient"
+provides-nominal:
+- "9Onix_Test9ApiClientC"
+provides-member:
+- ["9Onix_Test9ApiClientC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "APIError"
+- "APIManager"
+- "AlertDisplayer"
+- "ApiClient"
+- "Article"
+- !private "ArticleResponse"
+- !private "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "Endpoint"
+- "String"
+- "StringLiteralType"
+- !private "UIAlertAction"
+- "UIViewController"
+depends-member:
+- !private ["9Onix_Test8APIErrorO", "invalidData"]
+- !private ["9Onix_Test8APIErrorO", "jsonParsingFailure"]
+- !private ["9Onix_Test8APIErrorO", "requestFailed"]
+- !private ["9Onix_Test10APIManagerC", "deinit"]
+- !private ["9Onix_Test10APIManagerC", "genericFetch"]
+- ["9Onix_Test10APIManagerC", "init"]
+- !private ["9Onix_Test19APIManagerInterfaceP", "genericFetch"]
+- ["9Onix_Test19APIManagerInterfaceP", "init"]
+- ["9Onix_Test14AlertDisplayerP", "APIManager"]
+- ["9Onix_Test14AlertDisplayerP", "Article"]
+- !private ["9Onix_Test14AlertDisplayerP", "Endpoint"]
+- !private ["9Onix_Test14AlertDisplayerP", "UIAlertAction"]
+- ["9Onix_Test14AlertDisplayerP", ""]
+- !private ["9Onix_Test14AlertDisplayerP", "apiManager"]
+- !private ["9Onix_Test14AlertDisplayerP", "articles"]
+- ["9Onix_Test14AlertDisplayerP", "displayAlert"]
+- !private ["9Onix_Test14AlertDisplayerP", "onFetchFailed"]
+- !private ["9Onix_Test9ApiClientC", "APIError"]
+- ["9Onix_Test9ApiClientC", "APIManager"]
+- ["9Onix_Test9ApiClientC", "Article"]
+- !private ["9Onix_Test9ApiClientC", "ArticleResponse"]
+- !private ["9Onix_Test9ApiClientC", "Endpoint"]
+- ["9Onix_Test9ApiClientC", "String"]
+- !private ["9Onix_Test9ApiClientC", "UIAlertAction"]
+- ["9Onix_Test9ApiClientC", "UIViewController"]
+- ["9Onix_Test9ApiClientC", "apiManager"]
+- ["9Onix_Test9ApiClientC", "articles"]
+- ["9Onix_Test9ApiClientC", "deinit"]
+- ["9Onix_Test9ApiClientC", "displayAlert"]
+- ["9Onix_Test9ApiClientC", "getData"]
+- ["9Onix_Test9ApiClientC", "init"]
+- !private ["9Onix_Test9ApiClientC", "onFetchFailed"]
+- !private ["Sa", "forEach"]
+- ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "forEach"]
+- ["s13ArrayProtocolP", "init"]
+- !private ["9Onix_Test7ArticleC", "liked"]
+- !private ["9Onix_Test15ArticleResponseV", "articles"]
+- !private ["9Onix_Test15ArticleResponseV", "deinit"]
+- !private ["SK", "forEach"]
+- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "displayAlert"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "forEach"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "displayAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "displayAlert"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "articles"]
+- !private ["Se", "forEach"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "liked"]
+- !private ["SE", "forEach"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["9Onix_Test8EndpointO", "deinit"]
+- !private ["9Onix_Test8EndpointO", "rawValue"]
+- !private ["9Onix_Test8EndpointO", "techcrunch"]
+- !private ["SQ", "default"]
+- !private ["SQ", "displayAlert"]
+- !private ["SQ", "forEach"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "invalidData"]
+- !private ["SQ", "jsonParsingFailure"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "requestFailed"]
+- !private ["SQ", "techcrunch"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "default"]
+- !private ["SH", "displayAlert"]
+- !private ["SH", "forEach"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "invalidData"]
+- !private ["SH", "jsonParsingFailure"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "requestFailed"]
+- !private ["SH", "techcrunch"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "forEach"]
+- ["SM", "init"]
+- !private ["So8NSCodingP", "displayAlert"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "displayAlert"]
+- !private ["So8NSObjectC", "displayAlert"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "displayAlert"]
+- !private ["So8NSObjectP", "init"]
+- !private ["Sk", "forEach"]
+- ["Sk", "init"]
+- !private ["Sm", "forEach"]
+- ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "default"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "techcrunch"]
+- !private ["ST", "forEach"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["So18UIAlertActionStyleV", "default"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So13UIAlertActionC", "init"]
+- !private ["So21UIAppearanceContainerP", "displayAlert"]
+- !private ["So18UIContentContainerP", "displayAlert"]
+- !private ["So18UIFocusEnvironmentP", "displayAlert"]
+- !private ["So30UIPasteConfigurationSupportingP", "displayAlert"]
+- !private ["So11UIResponderC", "displayAlert"]
+- !private ["So30UIResponderStandardEditActionsP", "displayAlert"]
+- !private ["So16UIStateRestoringP", "displayAlert"]
+- !private ["So18UITraitEnvironmentP", "displayAlert"]
+- !private ["So23UIUserActivityRestoringP", "displayAlert"]
+- !private ["So16UIViewControllerC", "displayAlert"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "displayAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "9Onix_Test8APIErrorO"
+- "9Onix_Test10APIManagerC"
+- "9Onix_Test19APIManagerInterfaceP"
+- "9Onix_Test14AlertDisplayerP"
+- "9Onix_Test9ApiClientC"
+- "Sa"
+- "s13ArrayProtocolP"
+- !private "9Onix_Test7ArticleC"
+- !private "9Onix_Test15ArticleResponseV"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- !private "9Onix_Test8EndpointO"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "ST"
+- !private "SS"
+- !private "Sy"
+- !private "So18UIAlertActionStyleV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So13UIAlertActionC"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/yermakovanton/Desktop/Onix Test/DerivedData/Onix Test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e62a5af5afce23119ff82357ccd3ac4c"
