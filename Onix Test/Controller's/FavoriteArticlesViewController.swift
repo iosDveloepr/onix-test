@@ -17,8 +17,9 @@ class FavoriteArticlesViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.articles = self.articles.filter( {$0.liked == true} )
         DispatchQueue.main.async {
-            self.tableView.reloadData()
+          self.tableView.reloadData()
         }
     }
     
@@ -40,16 +41,8 @@ extension FavoriteArticlesViewController: UITableViewDelegate, UITableViewDataSo
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let article = articles[indexPath.row]
         let cell = Bundle.main.loadNibNamed("ArticlesTableViewCell", owner: self, options: nil)?.first as! ArticlesTableViewCell
-        cell.articleTitle.text = article.title
-        cell.articleDescription.text = article.description
-        if let url = article.urlToImage{
-            cell.articleImage.af_setImage(withURL: URL(string: url)!)
-        }
         cell.article = article
-        if article.liked == true{
-            cell.articleBtnOutlet.setImage(UIImage(named: "starHeighlited"), for: .normal)
-        }
-        
+        cell.setUpCell(withArticle: article)
         return cell
     }
     

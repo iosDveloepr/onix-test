@@ -53,7 +53,7 @@ class ArticlesViewController: UIViewController, AlertDisplayer{
     
     override func viewWillDisappear(_ animated: Bool) {
         let secondTab = self.tabBarController?.viewControllers?[1].contentViewcontroller as! FavoriteArticlesViewController
-        secondTab.articles = articles.filter( {$0.liked == true} )
+        secondTab.articles = articles
     }
     
     private func onFetchFailed(with reason: String) {
@@ -80,20 +80,10 @@ extension ArticlesViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let article = articles[indexPath.row]
         let cell = Bundle.main.loadNibNamed("ArticlesTableViewCell", owner: self, options: nil)?.first as! ArticlesTableViewCell
-        cell.articleTitle.text = article.title
-        cell.articleDescription.text = article.description
-        if let url = article.urlToImage{
-            cell.articleImage.af_setImage(withURL: URL(string: url)!)
-        }
         cell.article = article
-        
-        if article.liked == true{
-            cell.articleBtnOutlet.setImage(UIImage(named: "starHeighlited"), for: .normal)
-        }
-      
+        cell.setUpCell(withArticle: article)
         return cell
     }
     

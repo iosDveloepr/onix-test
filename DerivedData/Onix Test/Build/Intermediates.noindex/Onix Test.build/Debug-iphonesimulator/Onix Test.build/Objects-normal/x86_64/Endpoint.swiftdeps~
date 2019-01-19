@@ -10,6 +10,8 @@ depends-top-level:
 - "=="
 - !private "Array"
 - "Endpoint"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "String"
 - "StringLiteralType"
 - !private "_findStringSwitchCase"

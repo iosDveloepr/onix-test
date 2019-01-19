@@ -2,12 +2,66 @@
 provides-top-level:
 provides-nominal:
 provides-member:
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "contentViewcontroller"]
 provides-dynamic-lookup:
 depends-top-level:
 - "CastingPrecedence"
+- !private "UINavigationController"
 - "UIViewController"
 depends-member:
+- !private ["s7CVarArgP", "visibleViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "visibleViewController"]
+- !private ["s23CustomStringConvertibleP", "visibleViewController"]
+- !private ["SQ", "visibleViewController"]
+- !private ["SH", "visibleViewController"]
+- !private ["So8NSCodingP", "visibleViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "visibleViewController"]
+- !private ["So8NSObjectC", "UINavigationController"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "contentViewcontroller"]
+- !private ["So8NSObjectC", "visibleViewController"]
+- !private ["So8NSObjectP", "visibleViewController"]
+- !private ["So21UIAppearanceContainerP", "visibleViewController"]
+- !private ["So18UIContentContainerP", "visibleViewController"]
+- !private ["So18UIFocusEnvironmentP", "visibleViewController"]
+- !private ["So22UINavigationControllerC", "visibleViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "visibleViewController"]
+- !private ["So11UIResponderC", "UINavigationController"]
+- ["So11UIResponderC", "UIViewController"]
+- ["So11UIResponderC", "contentViewcontroller"]
+- !private ["So11UIResponderC", "visibleViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "visibleViewController"]
+- !private ["So16UIStateRestoringP", "visibleViewController"]
+- !private ["So18UITraitEnvironmentP", "visibleViewController"]
+- !private ["So23UIUserActivityRestoringP", "visibleViewController"]
+- !private ["So16UIViewControllerC", "UINavigationController"]
+- ["So16UIViewControllerC", "UIViewController"]
+- ["So16UIViewControllerC", "contentViewcontroller"]
+- !private ["So16UIViewControllerC", "visibleViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "visibleViewController"]
 depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -42,4 +96,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "ecd83e5d78cdc48b1066c73ff99653d6"
+interface-hash: "8ce69bcccc71a075087fa1f777971d2f"

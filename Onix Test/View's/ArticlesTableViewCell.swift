@@ -17,6 +17,17 @@ class ArticlesTableViewCell: UITableViewCell {
     
     var article: Article!
     
+    func setUpCell(withArticle article: Article){
+        articleTitle.text = article.title
+        articleDescription.text = article.description
+        if let url = article.urlToImage{
+            articleImage.af_setImage(withURL: URL(string: url)!)
+        }
+        if article.liked == true{
+            articleBtnOutlet.setImage(UIImage(named: "starHeighlited"), for: .normal)
+        }
+    }
+    
     @IBAction func likeButton(_ sender: UIButton) {
        
         if article.liked == true{

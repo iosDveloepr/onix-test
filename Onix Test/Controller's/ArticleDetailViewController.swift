@@ -28,7 +28,6 @@ class ArticleDetailViewController: UIViewController {
             let urlToImage = URL(string: url)!
             articleImageView.af_setImage(withURL: urlToImage)
         }
-        
         article.liked! == true ? likeBtnOutlet.setImage(UIImage(named: "starHeighlited"), for: .normal) : likeBtnOutlet.setImage(UIImage(named: "star"), for: .normal)
     }
     
@@ -43,10 +42,8 @@ class ArticleDetailViewController: UIViewController {
         }
     }
     
-    
     deinit {
         print("ArticleDetailViewController was deinit")
     }
  
-
 } // class

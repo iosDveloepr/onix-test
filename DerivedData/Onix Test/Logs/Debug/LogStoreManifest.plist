@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>E7F16471-32DC-4555-912A-838E53FF8013</key>
+		<key>3261B063-A3D7-465C-81B1-9B2E46B76764</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E7F16471-32DC-4555-912A-838E53FF8013.xcactivitylog</string>
+			<string>3261B063-A3D7-465C-81B1-9B2E46B76764.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Debug Onix Test</string>
 			<key>timeStartedRecording</key>
-			<real>568554096.70063198</real>
+			<real>569592141.86565995</real>
 			<key>timeStoppedRecording</key>
-			<real>568554125.00096297</real>
+			<real>569592156.16544998</real>
 			<key>title</key>
 			<string>Debug Onix Test</string>
 			<key>uniqueIdentifier</key>
-			<string>E7F16471-32DC-4555-912A-838E53FF8013</string>
+			<string>3261B063-A3D7-465C-81B1-9B2E46B76764</string>
+		</dict>
+		<key>8668D959-1F48-4DD0-B0FC-3D4AA921008B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8668D959-1F48-4DD0-B0FC-3D4AA921008B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Onix Test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Onix Test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Onix Test</string>
+			<key>timeStartedRecording</key>
+			<real>569595174.17481804</real>
+			<key>timeStoppedRecording</key>
+			<real>569595252.48440504</real>
+			<key>title</key>
+			<string>Debug Onix Test</string>
+			<key>uniqueIdentifier</key>
+			<string>8668D959-1F48-4DD0-B0FC-3D4AA921008B</string>
 		</dict>
 	</dict>
 </dict>
